@@ -73,3 +73,29 @@
 .info-content button:hover{
     background-color: #666565;
 }
+@media (max-width:800px) {
+    .info-content p{
+        font-size: 18px;
+    }
+    .img-content img{
+        justify-content: center;
+        max-width: 280px;
+    }
+    .info-content h1{
+        font-size: 48px;
+    }
+    .footer{
+        padding: 20px;
+    }
+}
+@media (max-width:550px) {
+    div{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .info-content button{
+        padding: 15px 20px;
+        width: 200px;
+    }
+}
