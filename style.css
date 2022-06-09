@@ -73,13 +73,13 @@
 .info-content button:hover{
     background-color: #666565;
 }
-@media (max-width:800px) {
+@media (max-width:850px) {
     .info-content p{
         font-size: 18px;
     }
     .img-content img{
         justify-content: center;
-        max-width: 280px;
+        max-width: 350px;
     }
     .info-content h1{
         font-size: 48px;
@@ -88,14 +88,14 @@
         padding: 20px;
     }
 }
-@media (max-width:550px) {
+@media (max-width:600px) {
     div{
         display: flex;
         flex-direction: column;
-        padding: 20px;
+        padding: 5px 20px;
     }
     .info-content button{
         padding: 15px 20px;
-        width: 200px;
+        max-width: 250px;
     }
 }
